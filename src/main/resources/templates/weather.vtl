@@ -1,0 +1,20 @@
+<h1>
+    $result.getName(),
+    $result.getSys().getCountry()
+</h1>
+
+<small>
+    Lon: $result.getCoord().getLon(),
+    Lat: $result.getCoord().getLat()
+</small>
+
+<h2>Current weather: $result.getWeather()[0].getDescription()</h2>
+
+<p>Temperature: $result.getMain().getTemp() &deg;C</p>
+<p>Pressure: $result.getMain().getPressure()</p>
+<p>Humidity: $result.getMain().getHumidity()</p>
+<p>Visibility: $result.getVisibility() meters</p>
+
+
+
+
